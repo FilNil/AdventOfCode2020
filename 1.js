@@ -10,8 +10,6 @@ for (let i of nbrs) {
 	}
 }
 
-console.log("Svar på uppgift 1:", answer1)
-
 for (let i = 0; i < nbrs.length; i++) {
 	for (let j = 0; j < nbrs.length; j++) {
 		tmp = nbrs.find(k => {
@@ -24,4 +22,4 @@ for (let i = 0; i < nbrs.length; i++) {
 	}
 }
 
-console.log("Svar på uppgift 2:", answer2)
+console.log(answer1, answer2)
